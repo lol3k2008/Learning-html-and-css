@@ -1,0 +1,71 @@
+@media (max-width: 1030px ){
+    menu{
+        height: 80vh;
+        position: sticky;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 0 ;
+    }
+    menu .logo p{
+        font-size: 24px;
+    }
+    menu .logo p:nth-child(2){
+        font-size: 20px;
+    }
+    menu .socjals a {
+        color: #ddd;
+    }
+    menu .logo{
+        height: 10vh;
+        margin-bottom: 0px;
+        
+    }
+    menu nav{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 20vh;
+        
+        
+        
+    }
+    menu .socjals{
+        height: 30vh; 
+        margin-top: 10px;
+        
+    }
+menu footer{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+    height: 10vh;
+}
+
+}
+
+@media (max-width: 820px ){
+menu .logo p{
+    font-size: 14px;
+}
+menu .logo p:nth-child(2){
+    font-size: 18px;
+}
+
+menu nav ul li a{
+    font-size: 12px;
+}
+
+menu .socjals{
+    height: 30vh;
+}
+menu .socjals a{
+    padding-left: 2px;
+    font-size: 10px;
+
+}
+
+menu footer p{
+    font-size: 10px;
+    
+}
+
+}
