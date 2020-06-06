@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/media.css">
@@ -24,10 +25,11 @@
 
     <nav>
 <ul>
-    <li><a href="#">Strona głowna</a></li>
-    <li><a href="#">O mnie</a></li>
+    <li><a href="#home">Strona głowna</a></li>
+    <li><a href="#about">O mnie</a></li>
     <li><a href="#">Blog</a></li>
-    <li><a href="#">Kontakt</a></li>
+    <li><a href="#work">Moje prace</a></li>
+    <li><a href="#contact">Kontakt</a></li>
     <!-- <li><a href="#"></a></li> -->
 </ul>
 
@@ -55,7 +57,7 @@
     <div id="home">
 
         <div class="head">
-        <h1>Witam na mojej stronie</h1>
+        <h1 class="h1">Witam na mojej stronie</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut tempora esse!</p>
     </div>
 <a href="#about"><i class="far fa-arrow-alt-circle-down"></i>
@@ -76,13 +78,34 @@
     <div class="photo">
         <div class="myPhoto"></div>
     </div>  
+
+    </div>
+<div id="work">
+    <p>Galeria zdjęć</p>
+    <div class="galery">
+
+        <a href="img/p1l.jpg" data-lightbox="mygallery" data-tittle="cam" ><img src="img/p1small.jpg" alt="cam"></a>
+        <a href="img/p2l.jpg" data-lightbox="mygallery" ><img src="img/p2small.jpg" alt="Nikon"></a>
+        <a href="img/p3l.jpg" data-lightbox="mygallery" ><img src="img/p3small.jpg" alt="work office"></a>
+        <a href="img/p4l.jpg" data-lightbox="mygallery" ><img src="img/p4small.jpg" alt="lan"></a>
+
+        
+        
+          </div>
+
+
     </div>
 
-    <div id="contact"></div>
+</div> 
+
+
+<div id="contact"></div>
 </main>
 
 
 
-
+<!-- <script src="js/jquery.waypoints.min"></script> -->
+<script src="js/lightbox-plus-jquery.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

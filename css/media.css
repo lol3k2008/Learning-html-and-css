@@ -92,7 +92,10 @@ menu footer p{
 .text p{
     font-size: 12px;
 }
-
+#work .galery a img{
+    width: 50%;
+    margin: 10px;
+}
 
 }
 

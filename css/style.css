@@ -19,6 +19,10 @@ main{
     display: flex;
     flex-direction: column;
 }
+.active{
+animation: bounceIn 3s  .5s linear;
+
+}
 
 /* ------------------------------------------------MENU-------------------------- */
 menu{
@@ -215,6 +219,34 @@ text-shadow: 1px 1px 20px black;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(94, 93, 93, 0.699);
 }
+
+/* -------------------------WORK------------------------------------ */
+
+#work{
+    width: 80vw;
+    /* height: 100vh; */
+    background-color: #555;
+}
+#work p{
+    font-size: 43px;
+    text-align: center;
+
+}
+
+#work .galery{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#work .galery a img{
+    margin: 20px;
+    border: 3px solid rgb(29, 28, 28);
+}
+
+
 
 
 
