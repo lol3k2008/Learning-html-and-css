@@ -170,18 +170,57 @@ text-shadow: 1px 1px 20px black;
     animation: bounce 3s infinite linear;
 }
 
+/* -----------------------------------ABOUT------------------------- */
+
+
+#about{
+    display: flex;
+    width: 80vw;
+    /* height: 100vh; */
+    background-color: #222;
+}
+
+#about .text{
+
+    width: 60%;
+    /* height: 100%; */
+    margin: 10% 5%;
+}
+.text .inline{
+    width: 80%;
+    height: 3px;
+    background-color: #333;
+    animation: zoomIn 4s infinite linear;
+}
+.text h2{
+    padding: 10px 0;
+    font-size: 43px;
+}
+.text p{
+    font-size: 22px;
+    color: #777;
+    margin: 15px;
+}
+#about .photo{
+    width: 40vw;
+    height: 100vh;
+}
+#about .photo .myPhoto{
+    background-image: url('../img/photo.jpg');
+    /* width: 40%; */
+    margin: 30px;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(94, 93, 93, 0.699);
+}
 
 
 
+/* ----------------------CONTACT---------------------- */
 
-
-
-
-
-
-#work{
-    
+#contact{
     width: 80vw;
     height: 100vh;
-    background-color: #222;
 }
