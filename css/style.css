@@ -5,7 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     display: flex;
     flex-direction: row;
@@ -130,15 +132,7 @@ menu footer{
     
 }
 /* -------------------------------------MAIN-----------------------------------------*/
-
-#about .head{
-    position: absolute;
-    top: 30%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    
-}
-main #about{
+main #home{
     position: relative;
     width: 80vw;
     height: 100vh;
@@ -147,15 +141,34 @@ main #about{
     background-size: cover;
     background-attachment: fixed;
 }
-#about h1{
+
+#home .head{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    
+}
+#home h1{
     font-size: 53px;
 text-shadow: 1px 1px 20px black;
 }
-#about p{
+#home p{
     text-shadow: 1px 1px 20px black;
     
 }
 
+#home .far{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%,-50%);
+    font-size: 32px;
+    color: royalblue;
+    animation: bounce 3s infinite linear;
+}
 
 
 

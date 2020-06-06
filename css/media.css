@@ -39,6 +39,12 @@ menu footer{
  justify-content: flex-end;
     height: 10vh;
 }
+#about .head h1{
+font-size: 33px;
+}
+#about .head p{
+font-size: 20px;
+}
 
 }
 
@@ -67,5 +73,21 @@ menu footer p{
     font-size: 10px;
     
 }
+
+}
+
+@media (max-width: 500px){
+    #about .head{
+        left: 40%;
+        justify-content: flex-start;
+    }
+    #about .head h1{
+        font-size: 23px;
+        }
+        #about .head p{
+        font-size: 14px;
+        }
+        
+
 
 }
