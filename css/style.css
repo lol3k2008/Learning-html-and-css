@@ -40,22 +40,22 @@ menu{
 /* ------------------------------------------------MENU-LOGO-------------------------- */
 .logo{
     margin: 20px 0;
-    height: 5vh;
+    /* height: 5vh; */
 }
 menu .logo p{
     text-align: center;
     font-family: 'Metal Mania', cursive;
-    font-size: 40px;
+    font-size: 33px;
 }
 .logo p:nth-child(2){
-    font-size: 20px;
+    font-size: 18px;
     
 }
 /* ------------------------------------------------MENU-NAV-------------------------- */
 menu nav{
     width: 100%;
-    height: 50vh;
-    margin-top: 100px;
+    /* height: 50vh; */
+    /* margin-top: 100px; */
     
 }
 menu nav ul{
@@ -88,13 +88,13 @@ menu .socjals{
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
-    height: 35vh;
+    /* height: 35vh; */
 
 }
 menu .socjals a{
     padding: 10px;
     color: rgba(54, 52, 52, 0.493);
-    font-size: 22px;
+    font-size: 18px;
     transition: color .4s, padding .5s;
 }
 
@@ -261,7 +261,7 @@ text-shadow: 1px 1px 20px black;
     background-size: cover;
     background-repeat: no-repeat;
     width: 80vw;
-    height: 60vh;
+    height: 80vh;
     z-index: 1;
 }
 .contact_bg{
