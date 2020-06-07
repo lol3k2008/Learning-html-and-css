@@ -143,6 +143,8 @@ main #home{
     background-image: url('../images/bg.jpg');
     background-color: #555;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
