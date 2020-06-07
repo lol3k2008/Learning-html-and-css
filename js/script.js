@@ -20,6 +20,22 @@ ScrollReveal().reveal('.photo4', { delay: 1200 });
 ScrollReveal().reveal('.pE1', { delay: 1000 });
 ScrollReveal().reveal('.pE2', { delay: 1200 });
 ScrollReveal().reveal('.pE3', { delay: 1400 });
+ScrollReveal().reveal('.pE4', { delay: 1600 });
 
 
 
+// ----------------------------------FORMU---------------------------
+
+$(document).ready(function() {
+    $("html").on("submit","#contact_form",function(e){
+      e.preventDefault();
+      $("#send_form_status").html('').hide();
+      var data=$("#contact_form").serialize();
+      $.post("/send_form.php",data,function(res){
+        $("#send_form_status").html(res.msg).show();
+        if(res.status==1){ 
+          $("#contact_form")[0].reset();
+        } 
+      });
+    });
+  });

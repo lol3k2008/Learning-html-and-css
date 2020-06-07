@@ -164,14 +164,15 @@ text-shadow: 1px 1px 20px black;
 
 #home .far{
     position: absolute;
-    width: 20px;
-    height: 20px;
     left: 50%;
     bottom: 3%;
     transform: translate(-50%,-50%);
-    font-size: 32px;
+    font-size: 52px;
+    padding: 10px;
     color: royalblue;
+    text-shadow: 5px 10px 30px rgb(83, 83, 83);
     animation: bounce 3s infinite linear;
+
 }
 
 /* -----------------------------------ABOUT------------------------- */
@@ -253,6 +254,62 @@ text-shadow: 1px 1px 20px black;
 /* ----------------------CONTACT---------------------- */
 
 #contact{
+    position: relative;
+    background-image: url('../img/map.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 80vw;
-    height: 100vh;
+    height: 60vh;
+    z-index: 1;
+}
+.contact_bg{
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.904);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#contact h3{
+    font-size: 33px;
+    text-align: center;
+}
+
+#contact p{
+    font-size: 23px;
+    text-align: center;
+    margin: 20px;
+}
+#contact .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    position: relative;
+}
+#contact .text a{
+    color: #ddd;
+    padding: 10px;
+    transition: transform .5s, margin .4s;
+    overflow: hidden;
+}
+#contact .text a::before{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: grey;
+    position: absolute;
+    bottom: 0px;
+    transition: .5s;
+}
+#contact .text i{
+font-size: 23px;
+    padding: 10px;
+}
+#contact .text a:hover{
+    transform: scale(1.4);
+    margin: 10px;
+}
+#contact .text a:hover::before{
+width: 100%;
 }
