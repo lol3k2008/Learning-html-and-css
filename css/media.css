@@ -118,13 +118,18 @@ font-size: 20px;
         #home .head p{
         font-size: 19px;
         }
+        #about .text {
+            width: 100%;
+            margin: 10px 0;
+
+        }
 
     #about h2{
-        font-size: 18px;
+        font-size: 24px;
         text-align: center;
         }
         #about p{
-        font-size: 14px;
+        font-size: 19px;
         text-align: center;
         }
         
