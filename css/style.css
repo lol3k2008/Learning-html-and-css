@@ -140,7 +140,7 @@ main #home{
     position: relative;
     width: 80vw;
     height: 100vh;
-    background-image: url('../img/bg.jpg');
+    background-image: url('../images/bg.jpg');
     background-color: #555;
     background-size: cover;
     background-attachment: fixed;
@@ -211,7 +211,7 @@ text-shadow: 1px 1px 20px black;
     height: 100vh;
 }
 #about .photo .myPhoto{
-    background-image: url('../img/photo.jpg');
+    background-image: url('../images/photo.jpg');
     /* width: 40%; */
     margin: 30px;
     height: 70%;
@@ -255,7 +255,7 @@ text-shadow: 1px 1px 20px black;
 
 #contact{
     position: relative;
-    background-image: url('../img/map.jpg');
+    background-image: url('../images/map.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 80vw;
@@ -272,6 +272,7 @@ text-shadow: 1px 1px 20px black;
 #contact h3{
     font-size: 33px;
     text-align: center;
+    margin: 20px;
 }
 
 #contact p{
