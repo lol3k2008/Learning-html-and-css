@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function(){
     function addShadow(){  //fucnkcja o nazwie addShadow
 
 
-        //jezeli scrolly jest wieksze lub rowne 250 js ma dodac klase shadow-bg do navigacji
        if(window.scrollY >= 1 ){  
            h1.classList.add(`active`);
        }else{
