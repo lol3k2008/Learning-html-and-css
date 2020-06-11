@@ -256,6 +256,7 @@ text-shadow: 1px 1px 20px black;
 /* ----------------------CONTACT---------------------- */
 
 #contact{
+    margin-top: 30px;
     position: relative;
     background-image: url('../images/map.jpg');
     background-size: cover;
