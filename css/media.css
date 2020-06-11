@@ -80,11 +80,12 @@ font-size: 20px;
     flex-direction: column;
 }
 #about .photo {
-width: 80vw;
+width: 70vw;
+
 }
 
 #about .photo .myPhoto{
-    height: 50vh;
+    height: 60vh;
 
 }
 #contact{
@@ -154,6 +155,8 @@ font-size: 19px;
         #home .head p{
         font-size: 19px;
         }
+
+        
         #about .text {
             width: 100%;
             margin: 10px 0;

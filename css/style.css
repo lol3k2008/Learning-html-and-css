@@ -210,7 +210,7 @@ text-shadow: 1px 1px 20px black;
 }
 #about .photo{
     width: 40vw;
-    height: 100vh;
+    /* height: 70vh; */
 }
 #about .photo .myPhoto{
     background-image: url('../images/photo.jpg');
